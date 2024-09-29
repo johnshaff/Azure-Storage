@@ -2,7 +2,7 @@
 
 This repository contains PowerShell scripts for managing Azure Storage Accounts and Blobs. All scripts have been pre-tested with Azure using PowerShell 7.4.5 Below is a quick summary on how to think of Azure Storage as well as a quick reference for each script in the repo.
 
-# Understanding Azure Storage and Associated Services
+## Understanding Azure Storage and Associated Services
 
 1. **Azure Storage Account**:  
    Think of an Azure Storage account as a container that can hold different kinds of storage services. When you create an Azure Storage account, it gives you a space to store multiple types of data in different formats, but all within the same account.
