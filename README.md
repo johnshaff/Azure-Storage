@@ -1,6 +1,6 @@
 # Azure PowerShell Scripts for Storage Account Management
 
-This repository contains PowerShell scripts for managing Azure Storage Accounts and Blobs. The scripts are designed to automate the process of creating storage accounts, uploading blobs, and downloading blobs. Below is a detailed explanation of each script.
+This repository contains PowerShell scripts managing Azure Storage Accounts and Blobs. All scripts have been pre-tested with Azure using PowerShell 7.4.5 Below is a quick reference for each script.
 
 ## Prerequisites
 
