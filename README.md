@@ -54,6 +54,6 @@ This script uploads files to a storage container in Azure. It retrieves the stor
 
 This script downloads blobs from a storage container in Azure to a local folder. It retrieves the storage account and downloads the specified blob to a designated directory.
 
-### 4. `calculate-total-blobsize.ps1`
+### 4. `blob-calculate-totalsize.ps1`
 
 Calculates the total size of blobs in all containers in a specified Azure storage account.
