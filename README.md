@@ -57,3 +57,11 @@ This script downloads blobs from a storage container in Azure to a local folder.
 ### 4. `blob-calculate-totalsize.ps1`
 
 Calculates the total size of blobs in all containers in a specified Azure storage account.
+
+### 5. blob-create-prefixcontainers.ps1
+
+This script creates three new containers in an Azure Storage Account, each with a specified prefix in their names. It ensures that no sensitive information is exposed during the process by storing the output in null variables.
+
+### 6. blob-delete-prefixcontainers.ps1
+
+This script lists all containers in a specified Azure Storage Account, filters containers based on a given prefix, and deletes those matching containers. It then displays the remaining containers that were not deleted after the operation.
