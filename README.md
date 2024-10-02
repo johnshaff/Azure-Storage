@@ -42,26 +42,38 @@ Before running the scripts, ensure you have:
 
 ## Scripts Overview
 
-### 1. `new-storage-account.ps1`
+### `new-storage-account.ps1`
 
 This script creates a new Azure Resource Group and Storage Account.
 
-### 2. `blob-upload.ps1`
+### `blob-create-container.ps1`
+
+Create a new blob container in an existing Azure Storage Account.
+
+### `blob-upload-single.ps1`
 
 This script uploads files to a storage container in Azure. It retrieves the storage account, creates a container if necessary, and uploads files to different access tiers like Hot, Cool, and Archive.
 
-### 3. `blob-download.ps1`
+### `blob-download-single.ps1`
 
 This script downloads blobs from a storage container in Azure to a local folder. It retrieves the storage account and downloads the specified blob to a designated directory.
 
-### 4. `blob-calculate-totalsize.ps1`
+### `blob-upload-images.ps1`
+
+Uploads all image extension files from a directory to an Azure Blob Storage container.
+
+### `blob-delete-allblobs.ps1`
+
+This script deletes all blobs in a single container in an Azure Storage account.
+
+### `blob-calculate-totalsize.ps1`
 
 Calculates the total size of blobs in all containers in a specified Azure storage account.
 
-### 5. `blob-create-prefixcontainers.ps1`
+### `blob-create-prefixcontainers.ps1`
 
 This script creates three new containers in an Azure Storage Account, each with a specified prefix in their names. It ensures that no sensitive information is exposed during the process by storing the output in null variables.
 
-### 6. `blob-delete-prefixcontainers.ps1`
+### `blob-delete-prefixcontainers.ps1`
 
 This script lists all containers in a specified Azure Storage Account, filters containers based on a given prefix, and deletes those matching containers. It then displays the remaining containers that were not deleted after the operation.
