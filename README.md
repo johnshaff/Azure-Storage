@@ -46,54 +46,5 @@ Before running the scripts, ensure you have:
 
 This script creates a new Azure Resource Group and Storage Account.
 
-## Blob Scripts
 
-### `blob-create-container.ps1`
 
-Create a new blob container in an existing Azure Storage Account.
-
-### `blob-upload-single.ps1`
-
-This script uploads files to a storage container in Azure. It retrieves the storage account, creates a container if necessary, and uploads files to different access tiers like Hot, Cool, and Archive.
-
-### `blob-download-single.ps1`
-
-This script downloads blobs from a storage container in Azure to a local folder. It retrieves the storage account and downloads the specified blob to a designated directory.
-
-### `blob-upload-images.ps1`
-
-Uploads all image extension files from a directory to an Azure Blob Storage container.
-
-### `blob-delete-allblobs.ps1`
-
-This script deletes all blobs in a single container in an Azure Storage account.
-
-### `blob-calculate-totalsize.ps1`
-
-Calculates the total size of blobs in all containers in a specified Azure storage account.
-
-### `blob-create-prefixcontainers.ps1`
-
-This script creates three new containers in an Azure Storage Account, each with a specified prefix in their names. It ensures that no sensitive information is exposed during the process by storing the output in null variables.
-
-### `blob-delete-prefixcontainers.ps1`
-
-This script lists all containers in a specified Azure Storage Account, filters containers based on a given prefix, and deletes those matching containers. It then displays the remaining containers that were not deleted after the operation.
-
-## Table Scripts
-
-### `table-create-one.ps1`
-
-This script creates a new Azure Storage Table in an existing storage account.
-
-### `table-add-entities.ps1`
-
-This script adds two new partitions and two new entities per paritition to a pre-existing Azure Storage Table.
-
-### `table-get-partition.ps1`
-
-This script retrieves all the entities of a single partition for a pre-existing table.
-
-### `table-get-entity.ps1`
-
-This script retrieves individual entities from a pre-existing table using either a search term or filter.
