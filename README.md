@@ -40,11 +40,13 @@ Before running the scripts, ensure you have:
 - Logged into your Azure account using `Connect-AzAccount`.
 - A resource group and storage account (or use the script to create one).
 
-## Scripts Overview
+## Start Here
 
 ### `new-storage-account.ps1`
 
 This script creates a new Azure Resource Group and Storage Account.
+
+## Blob Scripts
 
 ### `blob-create-container.ps1`
 
@@ -77,3 +79,21 @@ This script creates three new containers in an Azure Storage Account, each with 
 ### `blob-delete-prefixcontainers.ps1`
 
 This script lists all containers in a specified Azure Storage Account, filters containers based on a given prefix, and deletes those matching containers. It then displays the remaining containers that were not deleted after the operation.
+
+## Table Scripts
+
+### `table-create-one.ps1`
+
+This script creates a new Azure Storage Table in an existing storage account.
+
+### `table-add-entities.ps1`
+
+This script adds two new partitions and two new entities per paritition to a pre-existing Azure Storage Table.
+
+### `table-get-partition.ps1`
+
+This script retrieves all the entities of a single partition for a pre-existing table.
+
+### `table-get-entity.ps1`
+
+This script retrieves individual entities from a pre-existing table using either a search term or filter.
