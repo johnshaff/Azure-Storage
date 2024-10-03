@@ -1,8 +1,4 @@
-# Azure PowerShell Scripts for Storage Account Management
-
-This repository contains PowerShell scripts for managing Azure Storage Accounts and Blobs. All scripts have been pre-tested with Azure using PowerShell 7.4.5 Below is a quick summary on how to think of Azure Storage as well as a quick reference for each script in the repo.
-
-## Understanding Azure Storage Blobs and Containers
+# Understanding Azure Storage Blobs and Containers
 
 Azure Blob Storage is Microsoft's object storage solution for the cloud. It is designed to store large amounts of unstructured data, such as text or binary data, accessible from anywhere in the world via HTTP or HTTPS.
 
@@ -75,20 +71,3 @@ This script creates three new containers in an Azure Storage Account, each with 
 
 This script lists all containers in a specified Azure Storage Account, filters containers based on a given prefix, and deletes those matching containers. It then displays the remaining containers that were not deleted after the operation.
 
-## Table Scripts
-
-### `table-create-one.ps1`
-
-This script creates a new Azure Storage Table in an existing storage account.
-
-### `table-add-entities.ps1`
-
-This script adds two new partitions and two new entities per paritition to a pre-existing Azure Storage Table.
-
-### `table-get-partition.ps1`
-
-This script retrieves all the entities of a single partition for a pre-existing table.
-
-### `table-get-entity.ps1`
-
-This script retrieves individual entities from a pre-existing table using either a search term or filter.
