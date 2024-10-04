@@ -1,6 +1,6 @@
 # Azure PowerShell Scripts for Storage Account Management
 
-This repository contains PowerShell scripts for managing Azure Storage Accounts and Blobs. All scripts have been pre-tested with Azure using PowerShell 7.4.5 Below is a quick summary on how to think of Azure Storage as well as a quick reference for each script in the repo.
+This repository contains PowerShell scripts for managing your Azure Storage Account and it's associated services. All scripts have been pre-tested with Azure using PowerShell 7.4.5. Azure Storage is actually a collection of diverse storage services for different storage purposes. Each directory within this repo is dedicated to one of these associated services and has a short explainer on the service and a breakdown of the scripts dedicated to that directory's service.
 
 ## Understanding Azure Storage and Associated Services
 
