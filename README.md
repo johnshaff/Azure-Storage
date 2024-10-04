@@ -44,7 +44,9 @@ Before running the scripts, ensure you have:
 
 ### `new-storage-account.ps1`
 
-This script creates a new Azure Resource Group and Storage Account.
+This script creates a new Azure Resource Group and Storage Account. You must do this before anything. 
 
+### `endpoints-and-key.ps1`
 
+This script displays your Azure Storage Account endpoints for the different services, such as blobs, tables, queues, etc. It also outputs your account key for use in your applications. 
 
