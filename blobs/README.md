@@ -1,4 +1,4 @@
-# Understanding Azure Storage Blobs and Containers
+## Understanding Azure Storage Blobs and Containers
 
 Azure Blob Storage is Microsoft's object storage solution for the cloud. It is designed to store large amounts of unstructured data, such as text or binary data, accessible from anywhere in the world via HTTP or HTTPS.
 
