@@ -1,7 +1,6 @@
 # Define Storage Account and Resource Group
 $resourceGroup = 'az-900'
 $storageAccountName = 'storageaccount77380'
-$ctx = (Get-AzStorageAccount -ResourceGroupName $resourceGroup -Name $storageAccountName).Context
 
 # Create a new queue
 $queueName = "testqueue2"
