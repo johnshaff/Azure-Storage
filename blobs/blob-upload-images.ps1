@@ -1,10 +1,10 @@
 # Set your resource group and storage account name
 $ResourceGroup = "az-900"
-$StorageAccountName = "storageaccount77380"
+$StorageAccountName = "<your-storage-account-name>"
 $ctx = (Get-AzStorageAccount -ResourceGroupName $ResourceGroup -Name $StorageAccountName).Context
 
 # Set the path to the folder containing the images
-$path = "/Users/johnshaff/Desktop/returns/" 
+$path = "<path-to-image-folder>" 
 $containerName = "imageblobs"
 
 # Define all common image extensions

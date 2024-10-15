@@ -1,6 +1,6 @@
 # Define Storage Account and Resource Group
 $resourceGroup = 'az-900'
-$storageAccountName = 'storageaccount77380'
+$storageAccountName = '<storage-account-name>'
 
 # Create a new queue
 $queueName = "testqueue2"

@@ -11,7 +11,7 @@
 #   and the prefix for which to search
 
 $resourceGroup = "az-900"
-$storageAccountName = "storageaccount77380"
+$storageAccountName = "<your-storage-account-name>"
 $prefix = "image"
 
 # get a reference to the storage account and the context

@@ -1,7 +1,7 @@
 
 # Set up your resource group and storage account
 $resourceGroup = "az-900"
-$storageAccountName = "storageaccount77380"
+$storageAccountName = "<your-storage-account-name>"
 $prefix = "image"
 
 # Get the storage account context

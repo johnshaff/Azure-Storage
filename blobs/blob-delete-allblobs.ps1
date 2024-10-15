@@ -2,7 +2,7 @@
 
 # Set your resource group and storage account name
 $ResourceGroup = "az-900"
-$StorageAccountName = "storageaccount77380"
+$StorageAccountName = "<your-storage-account-name>"
 $ContainerName = "imageblobs"
 
 # Retrieve the existing storage account

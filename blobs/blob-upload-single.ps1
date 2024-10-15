@@ -2,7 +2,7 @@
 
 # Set your resource group and storage account name
 $ResourceGroup = "az-900"
-$StorageAccountName = "storageaccount77380"
+$StorageAccountName = "<your-storage-account-name>"
 
 # Retrieve the existing storage account
 $StorageAccount = Get-AzStorageAccount -ResourceGroupName $ResourceGroup -Name $StorageAccountName
@@ -15,7 +15,7 @@ New-AzStorageContainer -Name $ContainerName -Context $Context
 
 # upload a file to the default account (inferred) access tier
 $Blob1HT = @{
-    File             = '/Users/johnshaff/Library/CloudStorage/Dropbox/azure/az-storage/bladerunner.webp'
+    File             = '/<path>/bladerunner.webp'
     Container        = $ContainerName
     Blob             = "bladerunner.webp"
     Context          = $Context
